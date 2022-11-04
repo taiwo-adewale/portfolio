@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply text-white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-main-bg;
+}
+
+.section-header {
+  position: relative;
+}
+
+.section-header::after {
+  content: "";
+  @apply absolute h-0.5 w-[100px] bg-white rounded-full -bottom-3 left-1/2 -translate-x-1/2;
+}
+
+.section-header.about::after {
+  @apply md:!left-0 md:!translate-x-0;
+}
+
+.break-word {
+  word-break: break-word;
+}
+
+.nav-mobile {
+  animation: animateNavMobile 0.3s ease-in-out forwards;
+}
+
+@keyframes animateNavMobile {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
