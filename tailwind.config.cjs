@@ -26,9 +26,6 @@ module.exports = {
         "section-bg": "#262626",
       },
     },
-    // fontFamily: {
-    //   poppins: ["Poppins", "sans-serif"],
-    // },
   },
   plugins: [],
 };

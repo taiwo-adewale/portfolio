@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 * {
+  font-family: "Exo 2", sans-serif;
   @apply text-gray-200;
 }
 

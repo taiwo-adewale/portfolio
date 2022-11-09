@@ -3,13 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import {
-  Pagination,
-  Navigation,
-  FreeMode,
-  Scrollbar,
-  Mousewheel,
-} from "swiper";
+import { Pagination, FreeMode, Mousewheel } from "swiper";
 import { FaGithub } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
 
@@ -30,8 +24,7 @@ const Works = () => {
           pagination={{
             clickable: true,
           }}
-          freeMode={true}
-          modules={[Pagination, Mousewheel, FreeMode]}
+          modules={[Pagination, Mousewheel]}
           mousewheel={{ invert: false, forceToAxis: true }}
           className="mySwiper w-full"
         >

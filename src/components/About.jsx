@@ -8,7 +8,7 @@ const About = () => {
     <>
       <div className="flex flex-wrap md:flex-nowrap w-full py-4 gap-x-8">
         <div className="w-full md:w-1/2 md:order-2 flex flex-col justify-between items-center md:items-start">
-          <h3 className="section-header about w-fit text-primary font-bold text-4xl mb-6">
+          <h3 className="section-header about w-fit text-primary font-bold text-center md:text-start text-4xl mb-6">
             About Me
           </h3>
 
