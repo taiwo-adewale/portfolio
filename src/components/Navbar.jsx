@@ -8,6 +8,12 @@ import { SectionWrap } from "../wrapper";
 const Navbar = () => {
   const [isMobileNavActive, setIsMobileNavActive] = useState(false);
 
+  if (isMobileNavActive) {
+    document.querySelector("body").classList.add("overflow-hidden");
+  } else {
+    document.querySelector("body").classList.remove("overflow-hidden");
+  }
+
   return (
     <>
       <a
@@ -37,29 +43,33 @@ const Navbar = () => {
         <HiMenuAlt4 className="w-[70%] h-[70%] text-white" />
       </div>
 
-      {isMobileNavActive && (
-        <div className="nav-mobile fixed top-0 h-screen sm280:w-full w-[280px] p-8 shadow-sm shadow-stone-600 bg-main-bg z-[30] md:hidden">
-          <div className="flex flex-col h-full gap-y-8 overflow-y-auto">
-            <div
-              onClick={() => setIsMobileNavActive(false)}
-              className="px-2 py-1 cursor-pointer w-fit self-end"
-            >
-              <MdOutlineCancel className="w-6 h-6" />
-            </div>
-
-            {["about", "skills", "works", "contact"].map((link, index) => (
-              <a
-                href={`#${link}`}
-                key={`mobile-link-${index}`}
-                onClick={() => setIsMobileNavActive(false)}
-                className="px-2 py-1 hover:text-white uppercase"
-              >
-                {link}
-              </a>
-            ))}
+      <div
+        className={`-left-full fixed top-0 h-screen sm280:w-full w-[280px] p-8 shadow-sm shadow-stone-600 bg-main-bg z-[30] md:hidden ${
+          isMobileNavActive
+            ? "nav-mobile-entry-animation"
+            : "nav-mobile-exit-animation"
+        }`}
+      >
+        <div className="flex flex-col h-full space-y-8 overflow-y-auto">
+          <div
+            onClick={() => setIsMobileNavActive(false)}
+            className="px-2 py-1 cursor-pointer w-fit self-end"
+          >
+            <MdOutlineCancel className="w-6 h-6" />
           </div>
+
+          {["about", "skills", "works", "contact"].map((link, index) => (
+            <a
+              href={`#${link}`}
+              key={`mobile-link-${index}`}
+              onClick={() => setIsMobileNavActive(false)}
+              className="px-2 py-1 hover:text-white uppercase"
+            >
+              {link}
+            </a>
+          ))}
         </div>
-      )}
+      </div>
     </>
   );
 };

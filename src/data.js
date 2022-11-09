@@ -37,34 +37,3 @@ export const works = [
     github: "https://github.com/taiwo-adewale/liberty-nft-market",
   },
 ];
-
-export const skills = [
-  {
-    name: "HTML",
-    progress: 95,
-  },
-  {
-    name: "CSS",
-    progress: 83,
-  },
-  {
-    name: "JavaScript",
-    progress: 88,
-  },
-  {
-    name: "PHP",
-    progress: 79,
-  },
-  {
-    name: "React",
-    progress: 91,
-  },
-  {
-    name: "MySQL",
-    progress: 83,
-  },
-  {
-    name: "Laravel",
-    progress: 87,
-  },
-];

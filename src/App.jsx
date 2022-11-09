@@ -1,14 +1,6 @@
 import React from "react";
 
-import {
-  Navbar,
-  Hero,
-  About,
-  Skills,
-  Works,
-  Contact,
-  Footer,
-} from "./components";
+import { Navbar, Hero, About, Works, Contact, Footer } from "./components";
 
 function App() {
   return (
@@ -16,7 +8,6 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Skills />
       <Works />
       <Contact />
       <Footer />
