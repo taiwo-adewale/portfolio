@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  @apply text-white;
+  @apply text-gray-200;
 }
 
 html {
@@ -14,13 +14,17 @@ body {
   @apply bg-main-bg;
 }
 
+.gradient-colors {
+  @apply from-primary via-secondary to-tertiary;
+}
+
 .section-header {
-  position: relative;
+  @apply relative leading-[1.3] text-secondary;
 }
 
 .section-header::after {
   content: "";
-  @apply absolute h-0.5 w-[100px] bg-white rounded-full -bottom-3 left-1/2 -translate-x-1/2;
+  @apply absolute h-0.5 w-[100px] bg-gray-200 rounded-full -bottom-3 left-1/2 -translate-x-1/2;
 }
 
 .section-header.about::after {
@@ -42,4 +46,21 @@ body {
   100% {
     left: 0;
   }
+}
+
+.circular-progress::before {
+  content: "";
+  @apply absolute w-[84%] h-[84%] bg-section-bg rounded-full;
+}
+
+.swiper-pagination {
+  @apply static mt-4;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-[rgba(8,214,101,0.2)];
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-secondary;
 }

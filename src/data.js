@@ -3,42 +3,68 @@ import { images } from "./assets";
 export const works = [
   {
     title: "musica",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, beatae veniam sint odit vel.",
+    description: "Music streaming platform built with react and redux.",
     image: images.musica,
-    projectUrl: "https://netlify.com",
-    github: "https://github.com",
+    projectUrl: "https://musica-wale.netlify.app",
+    github: "https://github.com/taiwo-adewale/musica",
   },
   {
     title: "doppell",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, beatae veniam sint odit vel.",
+    description: "Simple e-commerce website with a mini blog built with PHP.",
     image: images.doppell,
-    projectUrl: "https://netlify.com",
-    github: "https://github.com",
+    projectUrl: "https://doppell.000webhostapp.com",
+    github: "https://github.com/taiwo-adewale/doppell",
   },
   {
     title: "yummy",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, beatae veniam sint odit vel.",
+    description: "Simple responsive bootstrap website for a restaurant.",
     image: images.yummy,
-    projectUrl: "https://netlify.com",
-    github: "https://github.com",
+    projectUrl: "https://waleyummy.netlify.app",
+    github: "https://github.com/taiwo-adewale/Yummy",
   },
   {
     title: "quizzical",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, beatae veniam sint odit vel.",
+    description: "A simple trivia website built with react and tailwind CSS.",
     image: images.quizzical,
-    projectUrl: "https://netlify.com",
-    github: "https://github.com",
+    projectUrl: "https://quizzical-by-wale.netlify.app",
+    github: "https://github.com/taiwo-adewale/quizzical",
   },
   {
     title: "liberty NFT marketplace",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, beatae veniam sint odit vel.",
+    description: "Simple CRUD website of a NFT marketplace built with Laravel.",
     image: images.liberty,
-    projectUrl: "https://netlify.com",
-    github: "https://github.com",
+    projectUrl: "https://quizzical-by-wale.netlify.app",
+    github: "https://github.com/taiwo-adewale/liberty-nft-market",
+  },
+];
+
+export const skills = [
+  {
+    name: "HTML",
+    progress: 95,
+  },
+  {
+    name: "CSS",
+    progress: 83,
+  },
+  {
+    name: "JavaScript",
+    progress: 88,
+  },
+  {
+    name: "PHP",
+    progress: 79,
+  },
+  {
+    name: "React",
+    progress: 91,
+  },
+  {
+    name: "MySQL",
+    progress: 83,
+  },
+  {
+    name: "Laravel",
+    progress: 87,
   },
 ];

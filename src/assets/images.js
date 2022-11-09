@@ -1,4 +1,5 @@
-import heroImage from "./Cool-Profile-Picture.jpg";
+import heroImage from "./hero-image.png";
+import aboutImage from "./about-image.png";
 import musica from "./musica.png";
 import quizzical from "./quizzical.png";
 import yummy from "./yummy.png";
@@ -7,6 +8,7 @@ import doppell from "./doppell.png";
 
 export default {
   heroImage,
+  aboutImage,
   musica,
   quizzical,
   yummy,
