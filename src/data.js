@@ -23,6 +23,13 @@ export const works = [
     github: "https://github.com/taiwo-adewale/Yummy",
   },
   {
+    title: "admin dashboard",
+    description: "Admin dashboard built with React JS (tutorial by JS Mastery)",
+    image: images.adminDashboard,
+    projectUrl: "https://admin-dashboard-syncfusion-wale.netlify.app",
+    github: "https://github.com/taiwo-adewale/admin_dashboard",
+  },
+  {
     title: "quizzical",
     description: "A simple trivia website built with react and tailwind CSS.",
     image: images.quizzical,
