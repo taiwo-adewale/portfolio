@@ -6,6 +6,7 @@ import quizzical from "./quizzical.png";
 import yummy from "./yummy.png";
 import liberty from "./liberty.png";
 import doppell from "./doppell.png";
+import taPortfolio from "./ta_portfolio.png";
 
 export default {
   heroImage,
@@ -16,4 +17,5 @@ export default {
   yummy,
   liberty,
   doppell,
+  taPortfolio,
 };

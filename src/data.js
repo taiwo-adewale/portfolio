@@ -1,4 +1,5 @@
 import { images } from "./assets";
+// add ta_portfolio
 
 export const works = [
   {
@@ -9,25 +10,18 @@ export const works = [
     github: "https://github.com/taiwo-adewale/musica",
   },
   {
-    title: "doppell",
-    description: "Simple e-commerce website with a mini blog built with PHP.",
-    image: images.doppell,
-    projectUrl: "https://doppell.000webhostapp.com",
-    github: "https://github.com/taiwo-adewale/doppell",
-  },
-  {
-    title: "yummy",
-    description: "Simple responsive bootstrap website for a restaurant.",
-    image: images.yummy,
-    projectUrl: "https://waleyummy.netlify.app",
-    github: "https://github.com/taiwo-adewale/Yummy",
-  },
-  {
     title: "admin dashboard",
     description: "Admin dashboard built with React JS (tutorial by JS Mastery)",
     image: images.adminDashboard,
     projectUrl: "https://admin-dashboard-syncfusion-wale.netlify.app",
     github: "https://github.com/taiwo-adewale/admin_dashboard",
+  },
+  {
+    title: "doppell",
+    description: "Simple e-commerce website with a mini blog built with PHP.",
+    image: images.doppell,
+    projectUrl: "https://doppell.000webhostapp.com",
+    github: "https://github.com/taiwo-adewale/doppell",
   },
   {
     title: "quizzical",
@@ -37,10 +31,24 @@ export const works = [
     github: "https://github.com/taiwo-adewale/quizzical",
   },
   {
+    title: "yummy",
+    description: "Simple responsive bootstrap website for a restaurant.",
+    image: images.yummy,
+    projectUrl: "https://waleyummy.netlify.app",
+    github: "https://github.com/taiwo-adewale/Yummy",
+  },
+  {
+    title: "portfolio",
+    description: "Portfolio website built with react JS and framer motion.",
+    image: images.taPortfolio,
+    projectUrl: "https://ta-portfolio-dev.netlify.app",
+    github: "https://github.com/taiwo-adewale/ta_portfolio",
+  },
+  {
     title: "liberty NFT marketplace",
     description: "Simple CRUD website of a NFT marketplace built with Laravel.",
     image: images.liberty,
-    projectUrl: "https://quizzical-by-wale.netlify.app",
+    projectUrl: "https://github.com/taiwo-adewale/liberty-nft-market",
     github: "https://github.com/taiwo-adewale/liberty-nft-market",
   },
 ];
