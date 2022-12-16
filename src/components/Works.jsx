@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, FreeMode, Mousewheel } from "swiper";
+import { Pagination, Mousewheel, Autoplay } from "swiper";
 import { FaGithub } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
 
@@ -19,19 +19,24 @@ const Works = () => {
         </h3>
 
         <Swiper
+          speed={600}
           slidesPerView="auto"
           spaceBetween={30}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: true,
+          }}
           pagination={{
             clickable: true,
           }}
-          modules={[Pagination, Mousewheel]}
+          modules={[Pagination, Mousewheel, Autoplay]}
           mousewheel={{ invert: false, forceToAxis: true }}
           className="mySwiper w-full"
         >
           {works.map((work, index) => (
             <SwiperSlide
               key={`work-${index}`}
-              className="w-full max-w-[300px] md:max-w-[350px]"
+              className="w-full max-w-[300px] md:max-w-[340px]"
             >
               <div className="bg-[#202020] flex flex-col rounded-2xl overflow-hidden">
                 <img src={work.image} alt="project" className="w-full" />
