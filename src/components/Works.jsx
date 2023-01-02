@@ -1,9 +1,4 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Pagination, Mousewheel, Autoplay } from "swiper";
 import { FaGithub } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
 
@@ -18,32 +13,15 @@ const Works = () => {
           My Works
         </h3>
 
-        <Swiper
-          speed={600}
-          slidesPerView="auto"
-          spaceBetween={30}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: true,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Pagination, Mousewheel, Autoplay]}
-          mousewheel={{ invert: false, forceToAxis: true }}
-          className="mySwiper w-full"
-        >
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-8">
           {works.map((work, index) => (
-            <SwiperSlide
-              key={`work-${index}`}
-              className="w-full max-w-[300px] md:max-w-[340px]"
-            >
+            <div key={`work-${index}`} className="w-full">
               <div className="bg-[#202020] flex flex-col rounded-2xl overflow-hidden">
                 <img src={work.image} alt="project" className="w-full" />
 
                 <div className="flex flex-col p-4 pb-6 gap-2 rounded-b-2xl border-t-0 border border-[rgba(64,66,69,0.5)]">
                   <div>
-                    <h4 className="text-2xl capitalize font-bold truncate text-gray-100">
+                    <h4 className="text-2xl capitalize font-bold break-all text-gray-100">
                       {work.title}
                     </h4>
                     <p className="text-xs sm:text-sm">{work.description}</p>
@@ -69,9 +47,9 @@ const Works = () => {
                   </div>
                 </div>
               </div>
-            </SwiperSlide>
+            </div>
           ))}
-        </Swiper>
+        </div>
       </div>
     </>
   );
