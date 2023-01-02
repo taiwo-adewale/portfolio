@@ -36,32 +36,6 @@ body {
   word-break: break-word;
 }
 
-.nav-mobile-entry-animation {
-  animation: animateNavMobileEntry 0.3s ease-in-out forwards;
-}
-
-.nav-mobile-exit-animation {
-  animation: animateNavMobileExit 0.3s ease-in-out forwards;
-}
-
-@keyframes animateNavMobileEntry {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 0;
-  }
-}
-
-@keyframes animateNavMobileExit {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
-}
-
 .circular-progress::before {
   content: "";
   @apply absolute w-[84%] h-[84%] bg-section-bg rounded-full;

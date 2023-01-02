@@ -9,9 +9,13 @@ const Navbar = () => {
   const [isMobileNavActive, setIsMobileNavActive] = useState(false);
 
   if (isMobileNavActive) {
-    document.querySelector("body").classList.add("overflow-hidden");
+    document
+      .querySelector("body")
+      .classList.add("overflow-hidden", "md:overflow-auto");
   } else {
-    document.querySelector("body").classList.remove("overflow-hidden");
+    document
+      .querySelector("body")
+      .classList.remove("overflow-hidden", "md:overflow-auto");
   }
 
   return (
@@ -25,11 +29,11 @@ const Navbar = () => {
 
       <ul className="items-center gap-x-4 hidden md:flex">
         {["about", "skills", "works", "contact"].map((link, index) => (
-          <li key={`link-${index}`}>
-            <a
-              href={`#${link}`}
-              className="px-2 py-1 text-gray-200 uppercase hover:text-secondary font-medium transition-all duration-300"
-            >
+          <li
+            key={`link-${index}`}
+            className="text-gray-200 uppercase hover:text-secondary hover:scale-110 font-medium transition-all duration-300"
+          >
+            <a href={`#${link}`} className="px-2 py-1">
               {link}
             </a>
           </li>
@@ -44,13 +48,10 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`-left-full fixed top-0 h-screen sm280:w-full w-[280px] p-8 shadow-sm shadow-stone-600 bg-main-bg z-[30] md:hidden ${
-          isMobileNavActive
-            ? "nav-mobile-entry-animation"
-            : "nav-mobile-exit-animation"
-        }`}
+        style={{ left: isMobileNavActive ? "0" : "-300px" }}
+        className={`fixed top-0 h-screen sm280:w-full w-[280px] p-8 shadow-sm shadow-stone-600 bg-main-bg z-[30] md:hidden transition-all duration-300`}
       >
-        <div className="flex flex-col h-full space-y-8 overflow-y-auto">
+        <div className="flex flex-col h-full space-y-8 overflow-y-auto overflow-x-hidden">
           <div
             onClick={() => setIsMobileNavActive(false)}
             className="px-2 py-1 cursor-pointer w-fit self-end"
@@ -63,7 +64,7 @@ const Navbar = () => {
               href={`#${link}`}
               key={`mobile-link-${index}`}
               onClick={() => setIsMobileNavActive(false)}
-              className="px-2 py-1 hover:text-white uppercase"
+              className="px-2 py-1 hover:text-white uppercase hover:translate-x-1 transition-all duration-300"
             >
               {link}
             </a>

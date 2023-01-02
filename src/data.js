@@ -11,7 +11,7 @@ export const works = [
   },
   {
     title: "admin dashboard",
-    description: "Admin dashboard built with React JS (tutorial by JS Mastery)",
+    description: "Admin dashboard built with React JS and Syncfusion",
     image: images.adminDashboard,
     projectUrl: "https://admin-dashboard-syncfusion-wale.netlify.app",
     github: "https://github.com/taiwo-adewale/admin_dashboard",

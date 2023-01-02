@@ -24,7 +24,7 @@ const About = () => {
             was for me. Since i entered into web development, I have built many
             web applications which are not only responsive but also built using
             the best software practices. My team work skills are superb and I am
-            also fast learner. Clean and reusable codes are my motto 😁.
+            also fast learner.
           </p>
         </div>
 

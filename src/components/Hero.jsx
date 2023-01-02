@@ -3,6 +3,8 @@ import React from "react";
 import { SectionWrap } from "../wrapper";
 import { images } from "../assets";
 
+import resume from "../assets/resume.pdf";
+
 const Hero = () => {
   return (
     <>
@@ -17,10 +19,17 @@ const Hero = () => {
           <div className="text-center md:text-start">
             <a
               href="#contact"
-              className="py-3 px-6 rounded-lg bg-gradient-to-br font-medium tracking-[0.5px] gradient-colors text-white"
+              className="py-3 px-6 rounded-lg bg-gradient-to-br font-medium tracking-[0.5px] gradient-colors text-white mr-4"
             >
               Contact Me
             </a>
+            {/* <a
+              href={resume}
+              download="resume-taiwo-adewale"
+              className="py-3 px-6 rounded-lg bg-[#171515] font-medium tracking-[0.5px] text-white"
+            >
+              Download Resume
+            </a> */}
           </div>
         </div>
 
