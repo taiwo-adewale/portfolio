@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className="text-center w-full">
         <p className="text-[15px] font-medium">
-          Copyright © 2022 WALE. All rights reserved.
+          Copyright © 2023 WALE. All rights reserved.
         </p>
       </div>
     </>
