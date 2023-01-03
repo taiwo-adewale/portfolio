@@ -7,6 +7,13 @@
   @apply text-gray-200;
 }
 
+*:focus {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -34,21 +41,4 @@ body {
 
 .break-word {
   word-break: break-word;
-}
-
-.circular-progress::before {
-  content: "";
-  @apply absolute w-[84%] h-[84%] bg-section-bg rounded-full;
-}
-
-.swiper-pagination {
-  @apply static mt-4;
-}
-
-.swiper-pagination-bullet {
-  @apply bg-[rgba(8,214,101,0.2)];
-}
-
-.swiper-pagination-bullet-active {
-  @apply bg-secondary;
 }
