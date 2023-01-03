@@ -3,13 +3,6 @@ import { images } from "./assets";
 
 export const works = [
   {
-    title: "musica",
-    description: "Music streaming platform built with react and redux.",
-    image: images.musica,
-    projectUrl: "https://musica-wale.netlify.app",
-    github: "https://github.com/taiwo-adewale/musica",
-  },
-  {
     title: "admin dashboard",
     description: "Admin dashboard built with React JS and Syncfusion",
     image: images.adminDashboard,
@@ -22,6 +15,13 @@ export const works = [
     image: images.doppell,
     projectUrl: "https://doppell.000webhostapp.com",
     github: "https://github.com/taiwo-adewale/doppell",
+  },
+  {
+    title: "musica",
+    description: "Music streaming platform built with react and redux.",
+    image: images.musica,
+    projectUrl: "https://musica-wale.netlify.app",
+    github: "https://github.com/taiwo-adewale/musica",
   },
   {
     title: "quizzical",
