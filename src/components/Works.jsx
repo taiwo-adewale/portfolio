@@ -31,7 +31,7 @@ const Works = () => {
                     <a
                       href={work.projectUrl}
                       target="_blank"
-                      className="w-1/2 flex items-center justify-center gap-x-2 bg-gradient-to-br gradient-colors text-white text-center rounded-lg text-sm px-4 xs:py-1.5 py-2 font-medium flex-grow sm:flex-grow-0"
+                      className="w-1/2 flex items-center justify-center gap-x-2 bg-gradient-to-br gradient-colors text-white text-center rounded-lg text-sm px-4 xs:py-1.5 py-2 font-medium flex-grow sm:flex-grow-0 hover:opacity-90 transition-all duration-300"
                     >
                       <BiWorld className="text-base" />
                       <span>Live Site</span>
@@ -39,7 +39,7 @@ const Works = () => {
                     <a
                       href={work.github}
                       target="_blank"
-                      className="w-1/2 flex items-center justify-center gap-x-2 bg-[#171515] text-white text-center rounded-lg text-sm px-4 xs:py-1.5 py-2 font-medium flex-grow sm:flex-grow-0"
+                      className="w-1/2 flex items-center justify-center gap-x-2 bg-[#171515] text-white text-center rounded-lg text-sm px-4 xs:py-1.5 py-2 font-medium flex-grow sm:flex-grow-0 hover:bg-[rgba(23,21,21,0.7)] transition-all duration-300"
                     >
                       <FaGithub className="text-base" />
                       <span>Github</span>
