@@ -84,12 +84,12 @@ export const works = [
     image: taPortfolio,
     projectUrl: "https://ta-portfolio-dev.netlify.app",
   },
-  {
-    title: "liberty NFT marketplace",
-    description: "Simple CRUD website of a NFT marketplace built with Laravel.",
-    image: liberty,
-    projectUrl: "https://github.com/taiwo-adewale/liberty-nft-market",
-  },
+  // {
+  //   title: "liberty NFT marketplace",
+  //   description: "Simple CRUD website of a NFT marketplace built with Laravel.",
+  //   image: liberty,
+  //   projectUrl: "https://github.com/taiwo-adewale/liberty-nft-market",
+  // },
 ];
 
 export const skills = [
