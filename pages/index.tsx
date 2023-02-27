@@ -18,15 +18,19 @@ export default function Home() {
 
           <div className="py-12">
             <p className="mb-6 lg:text-lg">
-              Taiwo Adewale is a product focused software engineer who likes the
-              thrill of working with startups. His technical interests include
-              web development, mobile application development and contributing
-              to open source software.
+              Hello, my name is Taiwo Adewale, and I am a frontend developer. I
+              am passionate about creating beautiful and functional user
+              interfaces that enhance the user experience. I have experience in
+              HTML, CSS, JavaScript, and frontend frameworks like React JS. I am
+              always eager to learn new technologies and techniques.
             </p>
 
             <p className="mb-10 lg:text-lg">
-              In his free time, he reads, plays the piano, watches anime and
-              takes long walks.
+              In my free time, I enjoy reading about the latest trends in
+              frontend development and experimenting with new design ideas. I am
+              excited to bring my skills and enthusiasm to any project I work
+              on, and I look forward to collaborating with others to create
+              great products.
             </p>
 
             <h2 className="font-bold leading-9 tracking-tight text-black dark:text-white text-lg sm:leading-10 md:text-xl lg:text-2xl xl:text-3xl xxl:text-4xl md:leading-14 mb-3 md:mb-6">
