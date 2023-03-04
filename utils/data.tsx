@@ -13,10 +13,12 @@ import adminDashboard from "public/assets/admin-dashboard.png";
 import musica from "public/assets/musica.png";
 import doppell from "public/assets/doppell.png";
 import homeRentals from "public/assets/home-rentals.png";
-import liberty from "public/assets/liberty.png";
 import quizzical from "public/assets/quizzical.png";
 import yummy from "public/assets/yummy.png";
 import taPortfolio from "public/assets/ta-portfolio.png";
+import alessio from "public/assets/alessio.png";
+import microdosing from "public/assets/microdosing.png";
+import blueway from "public/assets/blueway.png";
 
 export const links = [
   {
@@ -36,11 +38,27 @@ export const links = [
   },
 ];
 
-// add blueway
-// host liberty nft
-// add some random js mastery and probably other projects
-
 export const works = [
+  {
+    title: "alessio faggioli",
+    description:
+      "Book a consultation with Alessio Faggioli, a psychologist and psychotherapist.",
+    image: alessio,
+    projectUrl: "https://alessiofaggioli.com/",
+  },
+  {
+    title: "microdosing support",
+    description:
+      "Get professional help in the microdosing of psychedelic substances.",
+    image: microdosing,
+    projectUrl: "https://microdosingsupport.com/",
+  },
+  {
+    title: "blueway",
+    description: "Blog website built with React JS and Redux Toolkit.",
+    image: blueway,
+    projectUrl: "https://blueway-wale.netlify.app",
+  },
   {
     title: "doppell",
     description: "E-commerce website with a mini blog built with PHP.",
@@ -49,7 +67,7 @@ export const works = [
   },
   {
     title: "admin dashboard",
-    description: "Admin dashboard built with React JS and Syncfusion",
+    description: "Admin dashboard built with React JS and Syncfusion.",
     image: adminDashboard,
     projectUrl: "https://admin-dashboard-syncfusion-wale.netlify.app",
   },
@@ -62,7 +80,7 @@ export const works = [
   },
   {
     title: "home rentals",
-    description: "Landing page for a home rental agency built with Next JS",
+    description: "Landing page for a home rental agency built with Next JS.",
     image: homeRentals,
     projectUrl: "https://home-rentals-omega.vercel.app",
   },
@@ -84,12 +102,6 @@ export const works = [
     image: taPortfolio,
     projectUrl: "https://ta-portfolio-dev.netlify.app",
   },
-  // {
-  //   title: "liberty NFT marketplace",
-  //   description: "Simple CRUD website of a NFT marketplace built with Laravel.",
-  //   image: liberty,
-  //   projectUrl: "https://github.com/taiwo-adewale/liberty-nft-market",
-  // },
 ];
 
 export const skills = [

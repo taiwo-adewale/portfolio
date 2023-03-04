@@ -77,7 +77,7 @@ const Contact = () => {
             name="name"
             onChange={(e) => setName(e.target.value)}
             value={name}
-            className="w-full bg-transparent p-4 rounded-xl outline-none text-sm placeholder:text-sm t-300 focus:shadow-[0_0_5px_#dddddd] hover:shadow-[0_0_8px_#dddddd] dark:focus:shadow-[0_0_5px_#edf2f8] dark:hover:shadow-[0_0_8px_#edf2f8] border-2 border-borderColorLight dark:border-borderColorDark border-opacity-60"
+            className="w-full bg-transparent p-4 rounded-xl outline-none text-sm placeholder:text-sm t-300 focus:shadow-[0_0_4px_#dddddd] hover:shadow-[0_0_6px_#dddddd] dark:focus:shadow-[0_0_4px_#edf2f8] dark:hover:shadow-[0_0_6px_#edf2f8] border-2 border-borderColorLight dark:border-borderColorDark border-opacity-60"
             placeholder="Your Name"
           />
 
@@ -86,7 +86,7 @@ const Contact = () => {
             name="email"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
-            className="w-full bg-transparent p-4 rounded-xl outline-none text-sm placeholder:text-sm t-300 focus:shadow-[0_0_5px_#dddddd] hover:shadow-[0_0_8px_#dddddd] dark:focus:shadow-[0_0_5px_#edf2f8] dark:hover:shadow-[0_0_8px_#edf2f8] border-2 border-borderColorLight dark:border-borderColorDark border-opacity-60"
+            className="w-full bg-transparent p-4 rounded-xl outline-none text-sm placeholder:text-sm t-300 focus:shadow-[0_0_4px_#dddddd] hover:shadow-[0_0_6px_#dddddd] dark:focus:shadow-[0_0_4px_#edf2f8] dark:hover:shadow-[0_0_6px_#edf2f8] border-2 border-borderColorLight dark:border-borderColorDark border-opacity-60"
             placeholder="Your Email"
           />
 
@@ -94,7 +94,7 @@ const Contact = () => {
             name="message"
             onChange={(e) => setMessage(e.target.value)}
             value={message}
-            className="w-full bg-transparent p-4 rounded-xl outline-none text-sm placeholder:text-sm t-300 focus:shadow-[0_0_5px_#dddddd] hover:shadow-[0_0_8px_#dddddd] dark:focus:shadow-[0_0_5px_#edf2f8] dark:hover:shadow-[0_0_8px_#edf2f8] border-2 border-borderColorLight dark:border-borderColorDark border-opacity-60 h-[150px]"
+            className="w-full bg-transparent p-4 rounded-xl outline-none text-sm placeholder:text-sm t-300 focus:shadow-[0_0_4px_#dddddd] hover:shadow-[0_0_6px_#dddddd] dark:focus:shadow-[0_0_4px_#edf2f8] dark:hover:shadow-[0_0_6px_#edf2f8] border-2 border-borderColorLight dark:border-borderColorDark border-opacity-60 h-[150px]"
             placeholder="Your Message"
           />
 

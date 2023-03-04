@@ -17,18 +17,14 @@ function Projects() {
           {works.map((work, index) => (
             <div
               key={`work-${index}`}
-              className="flex flex-col overflow-hidden rounded-md border-2 border-borderColorLight dark:border-borderColorDark border-opacity-60"
+              className="flex flex-col overflow-hidden rounded-xl border-2 border-borderColorLight dark:border-borderColorDark border-opacity-60"
             >
               <Link
                 href={work.projectUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
-                  src={work.image}
-                  alt={work.title}
-                  className="w-full object-cover"
-                />
+                <Image src={work.image} alt={work.title} className="w-full" />
               </Link>
               <div className="p-4 sm:p-6 flex flex-col flex-grow">
                 <h2 className="mb-3 text-2xl xxl:text-3xl font-bold leading-8 tracking-tight dark:text-white text-black">

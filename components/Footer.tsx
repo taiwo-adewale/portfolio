@@ -11,7 +11,7 @@ function Footer() {
           href="https://twitter.com/walecyber_dev"
         >
           <span className="sr-only">twitter</span>
-          <FaTwitter className="text-2xl sm:text-3xl xxl:text-4xl fill-[#333333] dark:fill-textGray hover:fill-primary dark:hover:fill-primary t-300" />
+          <FaTwitter className="text-2xl sm:text-3xl xxl:text-4xl fill-[#333333] dark:fill-white hover:fill-primary dark:hover:fill-primary t-300" />
         </Link>
         <Link
           target="_blank"
@@ -19,7 +19,7 @@ function Footer() {
           href="https://www.linkedin.com/in/taiwo-adewale-jsdev/"
         >
           <span className="sr-only">linkedin</span>
-          <FaLinkedin className="text-2xl sm:text-3xl xxl:text-4xl fill-[#333333] dark:fill-textGray hover:fill-primary dark:hover:fill-primary t-300" />
+          <FaLinkedin className="text-2xl sm:text-3xl xxl:text-4xl fill-[#333333] dark:fill-white hover:fill-primary dark:hover:fill-primary t-300" />
         </Link>
         <Link
           target="_blank"
@@ -27,7 +27,7 @@ function Footer() {
           href="https://github.com/taiwo-adewale"
         >
           <span className="sr-only">github</span>
-          <FaGithub className="text-2xl sm:text-3xl xxl:text-4xl fill-[#333333] dark:fill-textGray hover:fill-primary dark:hover:fill-primary t-300" />
+          <FaGithub className="text-2xl sm:text-3xl xxl:text-4xl fill-[#333333] dark:fill-white hover:fill-primary dark:hover:fill-primary t-300" />
         </Link>
       </div>
       <p className="mt-4 sm:mt-8 text-center leading-6 text-textGray xxl:text-2xl">

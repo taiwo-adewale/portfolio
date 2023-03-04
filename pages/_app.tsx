@@ -14,7 +14,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
     if (localStorage.getItem("theme")) {
@@ -25,11 +25,14 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Taiwo Adewale - Frontend React Web Developer</title>
+        <title>
+          Taiwo Adewale - Frontend Developer Specializing in React JS and Next
+          JS
+        </title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta
           name="description"
-          content="Get in touch with Taiwo Adewale, a top professional web developer that develops scalable and interactive web apps using popular technologies like react js and next js"
+          content="Discover the world of modern web development with Taiwo Adewale, a frontend developer specializing in React JS and Next JS. Explore cutting-edge web applications and unlock your potential with expert guidance and support."
         />
 
         <link
@@ -66,23 +69,23 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Taiwo Adewale - Frontend web developer ( Nigeria )"
+          content="Taiwo Adewale - Frontend Developer Specializing in React JS and Next JS"
         />
         <meta
           property="og:description"
-          content="Get in touch with Taiwo Adewale, a top professional web developer that develops scalable and interactive web apps using popular technologies like react js and next js"
+          content="Discover the world of modern web development with Taiwo Adewale, a frontend developer specializing in React JS and Next JS. Explore cutting-edge web applications and unlock your potential with expert guidance and support."
         />
         <meta property="og:url" content="https://taiwo-adewale.vercel.app" />
         <meta
           property="og:site_name"
-          content="Taiwo Adewale - Frontend web developer ( Nigeria )"
+          content="Taiwo Adewale - Frontend Developer Specializing in React JS and Next JS"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Taiwo Adewale - Frontend web developer ( Nigeria )"
+          content="Taiwo Adewale - Frontend Developer Specializing in React JS and Next JS"
         />
-        <meta name="Get in touch with Taiwo Adewale, a top professional web developer that develops scalable and interactive web apps using popular technologies like react js and next js" />
+        <meta name="Discover the world of modern web development with Taiwo Adewale, a frontend developer specializing in React JS and Next JS. Explore cutting-edge web applications and unlock your potential with expert guidance and support." />
       </Head>
 
       <div className={`${ibmPlexSans.variable} overflow-x-hidden`}>

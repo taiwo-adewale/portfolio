@@ -55,11 +55,11 @@ button {
 }
 
 .nav-shadow {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 18px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 10px;
 }
 
 .dark .nav-shadow {
-  box-shadow: rgba(155, 155, 155, 0.24) 0px 3px 13px;
+  box-shadow: rgba(155, 155, 155, 0.24) 0px 2px 10px;
 }
 
 /* loader */
