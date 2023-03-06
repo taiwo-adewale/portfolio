@@ -53,9 +53,9 @@ export default function App({ Component, pageProps }: AppProps) {
           href="/favicon-32x32.png"
         />
 
-        <meta name="theme-color" content="#14b8a6" />
-        <meta name="msapplication-navbutton-color" content="#14b8a6" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="#14b8a6" />
+        <meta name="theme-color" content="#13929a" />
+        <meta name="msapplication-navbutton-color" content="#13929a" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#13929a" />
 
         <link rel="canonical" href="https://taiwo-adewale.vercel.app" />
 
