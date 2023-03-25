@@ -7,6 +7,7 @@ import {
   SiNextdotjs,
   SiRedux,
   SiTailwindcss,
+  SiMaterialui,
 } from "react-icons/si";
 
 import adminDashboard from "public/assets/admin-dashboard.png";
@@ -19,6 +20,7 @@ import taPortfolio from "public/assets/ta-portfolio.png";
 import alessio from "public/assets/alessio.png";
 import microdosing from "public/assets/microdosing.png";
 import blueway from "public/assets/blueway.png";
+import yandox from "public/assets/yandox.png";
 
 export const links = [
   {
@@ -40,18 +42,11 @@ export const links = [
 
 export const works = [
   {
-    title: "alessio faggioli",
+    title: "yandox",
     description:
-      "Book a consultation with Alessio Faggioli, a psychologist and psychotherapist.",
-    image: alessio,
-    projectUrl: "https://alessiofaggioli.com/",
-  },
-  {
-    title: "microdosing support",
-    description:
-      "Get professional help in the microdosing of psychedelic substances.",
-    image: microdosing,
-    projectUrl: "https://microdosingsupport.com/",
+      "Property listing admin dashboard built with Next JS and Material UI.",
+    image: yandox,
+    projectUrl: "https://yandox.vercel.app/",
   },
   {
     title: "blueway",
@@ -66,10 +61,17 @@ export const works = [
     projectUrl: "https://doppell.000webhostapp.com",
   },
   {
-    title: "admin dashboard",
-    description: "Admin dashboard built with React JS and Syncfusion.",
-    image: adminDashboard,
-    projectUrl: "https://admin-dashboard-syncfusion-wale.netlify.app",
+    title: "yummy",
+    description: "Simple responsive bootstrap website for a restaurant.",
+    image: yummy,
+    projectUrl: "https://waleyummy.netlify.app",
+  },
+  {
+    title: "alessio faggioli",
+    description:
+      "Book a consultation with Alessio Faggioli, a psychologist and psychotherapist.",
+    image: alessio,
+    projectUrl: "https://alessiofaggioli.com/",
   },
   {
     title: "musica",
@@ -77,6 +79,19 @@ export const works = [
       "Music streaming platform built with react, redux and firebase.",
     image: musica,
     projectUrl: "https://musica-wale.netlify.app",
+  },
+  {
+    title: "admin dashboard",
+    description: "Admin dashboard built with React JS and Syncfusion.",
+    image: adminDashboard,
+    projectUrl: "https://admin-dashboard-syncfusion-wale.netlify.app",
+  },
+  {
+    title: "microdosing support",
+    description:
+      "Get professional help in the microdosing of psychedelic substances.",
+    image: microdosing,
+    projectUrl: "https://microdosingsupport.com/",
   },
   {
     title: "home rentals",
@@ -89,12 +104,6 @@ export const works = [
     description: "A simple trivia website built with react and tailwind CSS.",
     image: quizzical,
     projectUrl: "https://quizzical-by-wale.netlify.app",
-  },
-  {
-    title: "yummy",
-    description: "Simple responsive bootstrap website for a restaurant.",
-    image: yummy,
-    projectUrl: "https://waleyummy.netlify.app",
   },
   {
     title: "portfolio",
@@ -161,5 +170,12 @@ export const skills = [
       <SiTailwindcss className="text-3xl md:text-4xl lg:text-5xl xxl:text-7xl" />
     ),
     color: "#35b3eb",
+  },
+  {
+    name: "Material UI",
+    icon: (
+      <SiMaterialui className="text-3xl md:text-4xl lg:text-5xl xxl:text-7xl" />
+    ),
+    color: "#0081cb",
   },
 ];

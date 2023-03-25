@@ -41,15 +41,17 @@ function Projects() {
                 <p className="mb-3 text-dark dark:text-textGray xxl:text-xl flex-grow">
                   {work.description}
                 </p>
-                <Link
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={work.projectUrl}
-                  className="font-medium leading-6 text-primary hover:text-[#0D9488] dark:hover:text-[#2DD4BF] xxl:text-xl"
-                  aria-label={`Link to ${work.title}`}
-                >
-                  View →
-                </Link>
+                <div>
+                  <Link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={work.projectUrl}
+                    className="font-medium leading-6 text-primary hover:text-[#0D9488] dark:hover:text-[#2DD4BF] xxl:text-xl"
+                    aria-label={`Link to ${work.title}`}
+                  >
+                    View →
+                  </Link>
+                </div>
               </div>
             </div>
           ))}
