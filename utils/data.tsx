@@ -10,8 +10,6 @@ import {
   SiMaterialui,
 } from "react-icons/si";
 
-//test
-
 import adminDashboard from "public/assets/admin-dashboard.png";
 import musica from "public/assets/musica.png";
 import doppell from "public/assets/doppell.png";
@@ -23,6 +21,7 @@ import alessio from "public/assets/alessio.png";
 import microdosing from "public/assets/microdosing.png";
 import blueway from "public/assets/blueway.png";
 import yandox from "public/assets/yandox.png";
+import apexCare from "public/assets/apex-care.png";
 
 export const links = [
   {
@@ -44,72 +43,86 @@ export const links = [
 
 export const works = [
   {
+    title: "apex care",
+    description:
+      "Looking for a hassle-free way to book medical appointments online? Check out ApexCare, where you can browse services and book appointments in minutes.",
+    image: apexCare,
+    projectUrl: "https://apex-care.netlify.app/",
+  },
+  {
     title: "yandox",
     description:
-      "Property listing admin dashboard built with Next JS and Material UI.",
+      "Take control of your property business with our customizable admin dashboard, designed to help you manage leads, listings, and clients with ease.",
     image: yandox,
     projectUrl: "https://yandox.vercel.app/",
   },
   {
-    title: "blueway",
-    description: "Blog website built with React JS and Redux Toolkit.",
-    image: blueway,
-    projectUrl: "https://blueway-wale.netlify.app",
-  },
-  {
     title: "doppell",
-    description: "E-commerce website with a mini blog built with PHP.",
+    description:
+      "Elevate your tech game with Doppell, where you can easily browse and purchase top-rated electronic devices from the comfort of your own home.",
     image: doppell,
     projectUrl: "https://doppell.000webhostapp.com",
   },
   {
-    title: "yummy",
-    description: "Simple responsive bootstrap website for a restaurant.",
-    image: yummy,
-    projectUrl: "https://waleyummy.netlify.app",
-  },
-  {
-    title: "alessio faggioli",
-    description:
-      "Book a consultation with Alessio Faggioli, a psychologist and psychotherapist.",
-    image: alessio,
-    projectUrl: "https://alessiofaggioli.com/",
-  },
-  {
-    title: "musica",
-    description:
-      "Music streaming platform built with react, redux and firebase.",
-    image: musica,
-    projectUrl: "https://musica-wale.netlify.app",
-  },
-  {
-    title: "admin dashboard",
-    description: "Admin dashboard built with React JS and Syncfusion.",
-    image: adminDashboard,
-    projectUrl: "https://admin-dashboard-syncfusion-wale.netlify.app",
-  },
-  {
     title: "microdosing support",
     description:
-      "Get professional help in the microdosing of psychedelic substances.",
+      "Need guidance on microdosing? Microdosing support provides information and resources to help you navigate this emerging field and make informed decisions.",
     image: microdosing,
     projectUrl: "https://microdosingsupport.com/",
   },
   {
+    title: "musica",
+    description:
+      "Musica lets you explore the world of music like never before, with a wide range of genres, personalized recommendations, and exclusive content.",
+    image: musica,
+    projectUrl: "https://musica-wale.netlify.app",
+  },
+  {
+    title: "alessio faggioli",
+    description:
+      "Whether you're struggling with anxiety, depression, or other mental health challenges, Alessio Faggioli offers a range of therapy options to support your healing and growth.",
+    image: alessio,
+    projectUrl: "https://alessiofaggioli.com/",
+  },
+  {
+    title: "blueway",
+    description:
+      "Blueway is the go-to destination for informative, inspiring, and entertaining content. From travel to food to lifestyle to technology, we cover it all.",
+    image: blueway,
+    projectUrl: "https://blueway-wale.netlify.app",
+  },
+  {
+    title: "yummy",
+    description:
+      "Treat yourself to a culinary journey with Yummy, where you can discover our mouth-watering menu and reserve your spot at our table.",
+    image: yummy,
+    projectUrl: "https://waleyummy.netlify.app",
+  },
+  {
+    title: "admin dashboard",
+    description:
+      "See a comprehensive overview of your business metrics, with customizable charts and graphs that allow you to monitor progress and identify trends.",
+    image: adminDashboard,
+    projectUrl: "https://admin-dashboard-syncfusion-wale.netlify.app",
+  },
+  {
     title: "home rentals",
-    description: "Landing page for a home rental agency built with Next JS.",
+    description:
+      "A one-stop-shop for all your property hunting needs, featuring an intuitive search function and detailed listings of properties in your area.",
     image: homeRentals,
     projectUrl: "https://home-rentals-omega.vercel.app",
   },
   {
     title: "quizzical",
-    description: "A simple trivia website built with react and tailwind CSS.",
+    description:
+      "Quizzical offers a thrilling way to learn and have fun, with a variety of quizzes and games designed to challenge your mind and test your skills.",
     image: quizzical,
     projectUrl: "https://quizzical-by-wale.netlify.app",
   },
   {
     title: "portfolio",
-    description: "Portfolio website for a web developer built with React JS.",
+    description:
+      "Looking to impress potential clients or employers? Our portfolio website is the perfect platform to showcase your UI/UX and frontend development talents.",
     image: taPortfolio,
     projectUrl: "https://ta-portfolio-dev.netlify.app",
   },
