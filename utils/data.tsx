@@ -75,7 +75,7 @@ export const works = [
     description:
       "Musica lets you explore the world of music like never before, with a wide range of genres, personalized recommendations, and exclusive content.",
     image: musica,
-    projectUrl: "https://musica-wale.netlify.app",
+    projectUrl: "https://musica01.netlify.app",
   },
   {
     title: "alessio faggioli",
@@ -89,14 +89,14 @@ export const works = [
     description:
       "Blueway is the go-to destination for informative, inspiring, and entertaining content. From travel to food to lifestyle to technology, we cover it all.",
     image: blueway,
-    projectUrl: "https://blueway-wale.netlify.app",
+    projectUrl: "https://blueway01.netlify.app",
   },
   {
     title: "yummy",
     description:
       "Treat yourself to a culinary journey with Yummy, where you can discover our mouth-watering menu and reserve your spot at our table.",
     image: yummy,
-    projectUrl: "https://waleyummy.netlify.app",
+    projectUrl: "https://yummy01.netlify.app/",
   },
   {
     title: "admin dashboard",
@@ -117,7 +117,7 @@ export const works = [
     description:
       "Quizzical offers a thrilling way to learn and have fun, with a variety of quizzes and games designed to challenge your mind and test your skills.",
     image: quizzical,
-    projectUrl: "https://quizzical-by-wale.netlify.app",
+    projectUrl: "https://quizzical001.netlify.app",
   },
   {
     title: "portfolio",
