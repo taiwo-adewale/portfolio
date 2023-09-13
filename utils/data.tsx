@@ -10,13 +10,9 @@ import {
   SiMaterialui,
 } from "react-icons/si";
 
-import adminDashboard from "public/assets/admin-dashboard.png";
 import musica from "public/assets/musica.png";
 import doppell from "public/assets/doppell.png";
-import homeRentals from "public/assets/home-rentals.png";
 import quizzical from "public/assets/quizzical.png";
-import yummy from "public/assets/yummy.png";
-import taPortfolio from "public/assets/ta-portfolio.png";
 import alessio from "public/assets/alessio.png";
 import microdosing from "public/assets/microdosing.png";
 import blueway from "public/assets/blueway.png";
@@ -92,39 +88,11 @@ export const works = [
     projectUrl: "https://blueway01.netlify.app",
   },
   {
-    title: "yummy",
-    description:
-      "Treat yourself to a culinary journey with Yummy, where you can discover our mouth-watering menu and reserve your spot at our table.",
-    image: yummy,
-    projectUrl: "https://yummy01.netlify.app/",
-  },
-  {
-    title: "admin dashboard",
-    description:
-      "See a comprehensive overview of your business metrics, with customizable charts and graphs that allow you to monitor progress and identify trends.",
-    image: adminDashboard,
-    projectUrl: "https://admin-dashboard-syncfusion-wale.netlify.app",
-  },
-  {
-    title: "home rentals",
-    description:
-      "A one-stop-shop for all your property hunting needs, featuring an intuitive search function and detailed listings of properties in your area.",
-    image: homeRentals,
-    projectUrl: "https://home-rentals-omega.vercel.app",
-  },
-  {
     title: "quizzical",
     description:
       "Quizzical offers a thrilling way to learn and have fun, with a variety of quizzes and games designed to challenge your mind and test your skills.",
     image: quizzical,
     projectUrl: "https://quizzical001.netlify.app",
-  },
-  {
-    title: "portfolio",
-    description:
-      "Looking to impress potential clients or employers? Our portfolio website is the perfect platform to showcase your UI/UX and frontend development talents.",
-    image: taPortfolio,
-    projectUrl: "https://ta-portfolio-dev.netlify.app",
   },
 ];
 
