@@ -18,6 +18,7 @@ import microdosing from "public/assets/microdosing.png";
 import blueway from "public/assets/blueway.png";
 import yandox from "public/assets/yandox.png";
 import apexCare from "public/assets/apex-care.png";
+import oneOvMany from "public/assets/1ovmany.png";
 
 export const links = [
   {
@@ -38,6 +39,13 @@ export const links = [
 ];
 
 export const works = [
+  {
+    title: "1ovmany",
+    description:
+      "We empower the right people to solve the problems that drive measurable business outcomes and help organisations reach their full potential",
+    image: oneOvMany,
+    projectUrl: "https://www.1ovmany.com/",
+  },
   {
     title: "apex care",
     description:
