@@ -7,8 +7,9 @@ import {
   SiNextdotjs,
   SiRedux,
   SiTailwindcss,
-  SiMaterialui,
+  SiMui,
 } from "react-icons/si";
+import { TaReactQuery } from "./icons";
 
 import musica from "public/assets/musica.png";
 import doppell from "public/assets/doppell.png";
@@ -19,6 +20,7 @@ import blueway from "public/assets/blueway.png";
 import yandox from "public/assets/yandox.png";
 import apexCare from "public/assets/apex-care.png";
 import oneOvMany from "public/assets/1ovmany.png";
+import snapgram from "public/assets/snapgram.png";
 
 export const links = [
   {
@@ -40,6 +42,18 @@ export const links = [
 
 export const works = [
   {
+    title: "Pixstock",
+    description: "Social media website",
+    image: snapgram,
+    projectUrl: "https://snapgram-wale.vercel.app/",
+  },
+  {
+    title: "Snapgram",
+    description: "Social media website",
+    image: snapgram,
+    projectUrl: "https://snapgram-wale.vercel.app/",
+  },
+  {
     title: "1ovmany",
     description:
       "We empower the right people to solve the problems that drive measurable business outcomes and help organisations reach their full potential",
@@ -47,18 +61,18 @@ export const works = [
     projectUrl: "https://www.1ovmany.com/",
   },
   {
-    title: "apex care",
-    description:
-      "Looking for a hassle-free way to book medical appointments online? Check out ApexCare, where you can browse services and book appointments in minutes.",
-    image: apexCare,
-    projectUrl: "https://apex-care.netlify.app/",
-  },
-  {
     title: "yandox",
     description:
       "Take control of your property business with our customizable admin dashboard, designed to help you manage leads, listings, and clients with ease.",
     image: yandox,
     projectUrl: "https://yandox.vercel.app/",
+  },
+  {
+    title: "apex care",
+    description:
+      "Looking for a hassle-free way to book medical appointments online? Check out ApexCare, where you can browse services and book appointments in minutes.",
+    image: apexCare,
+    projectUrl: "https://apex-care.netlify.app/",
   },
   {
     title: "doppell",
@@ -81,13 +95,13 @@ export const works = [
     image: musica,
     projectUrl: "https://musica01.netlify.app",
   },
-  {
-    title: "alessio faggioli",
-    description:
-      "Whether you're struggling with anxiety, depression, or other mental health challenges, Alessio Faggioli offers a range of therapy options to support your healing and growth.",
-    image: alessio,
-    projectUrl: "https://alessiofaggioli.com/",
-  },
+  // {
+  //   title: "alessio faggioli",
+  //   description:
+  //     "Whether you're struggling with anxiety, depression, or other mental health challenges, Alessio Faggioli offers a range of therapy options to support your healing and growth.",
+  //   image: alessio,
+  //   projectUrl: "https://alessiofaggioli.com/",
+  // },
   {
     title: "blueway",
     description:
@@ -149,6 +163,13 @@ export const skills = [
     color: "#764abc",
   },
   {
+    name: "React Query",
+    icon: (
+      <TaReactQuery className="text-3xl md:text-4xl lg:text-5xl xxl:text-7xl" />
+    ),
+    color: undefined,
+  },
+  {
     name: "Git",
     icon: (
       <FaGitAlt className="text-3xl md:text-4xl lg:text-5xl xxl:text-7xl" />
@@ -164,9 +185,7 @@ export const skills = [
   },
   {
     name: "Material UI",
-    icon: (
-      <SiMaterialui className="text-3xl md:text-4xl lg:text-5xl xxl:text-7xl" />
-    ),
+    icon: <SiMui className="text-3xl md:text-4xl lg:text-5xl xxl:text-7xl" />,
     color: "#0081cb",
   },
 ];
