@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-primary outline outline-transparent outline-2 outline-offset-2;
+}
+
+*:focus-visible {
+  @apply outline-primary;
+}
+
+*,
+*:focus {
+  -webkit-tap-highlight-color: transparent;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.loader {
+  --c: no-repeat linear-gradient(#d9d9d9 0 0);
+  background: var(--c), var(--c), var(--c);
+}

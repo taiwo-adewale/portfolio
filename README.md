@@ -7,7 +7,6 @@ Here I show my skills, projects and my personality, allowing visitors to know mo
 - Next.js
 - Typescript
 - Tailwind CSS
-- Framer motion
 - Email.js
 
 ## Installation
