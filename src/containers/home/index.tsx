@@ -21,12 +21,14 @@ export default function Home() {
       <div className="col-span-12 h-[25rem] lg:h-auto lg:row-span-2 lg:col-span-4">
         <Link
           href="/about"
-          aria-label="about page"
           className="relative group flex flex-col size-full overflow-hidden border-2 border-card-border rounded-[1.875rem] py-5 duration-200 hover:border-primary isolate"
         >
           <Image
             src={waleImg}
             alt="taiwo adewale"
+            loading="eager"
+            priority
+            placeholder="blur"
             fill
             className="object-cover group-hover:scale-110 group-focus:scale-110 transition-all duration-500 -z-[1] object-top brightness-50"
           />
@@ -47,29 +49,20 @@ export default function Home() {
 
       <div className="grid grid-cols-12 col-span-12 gap-5 lg:col-span-8">
         <div className="col-span-12 sm:col-span-4">
-          <HomeCard
-            href="/skills"
-            title="skills"
-            label="code toolkit"
-            ariaLabel="skills page"
-          >
+          <HomeCard href="/skills" title="skills" label="code toolkit">
             <Image
               src={skillsImg}
               alt="keyboard and coffee on a table"
               width={220}
               height={150}
+              placeholder="blur"
               className="w-full duration-500 group-hover:scale-110 group-focus:scale-110"
             />
           </HomeCard>
         </div>
 
         <div className="col-span-12 sm:col-span-8">
-          <HomeCard
-            href="/services"
-            title="services"
-            label="digital suite"
-            ariaLabel="services page"
-          >
+          <HomeCard href="/services" title="services" label="digital suite">
             <div className="flex items-center justify-center gap-3 px-5 py-4">
               {serviceImgs.map((image, index) => (
                 <Image
@@ -89,18 +82,14 @@ export default function Home() {
 
       <div className="grid grid-cols-12 col-span-12 gap-5 lg:col-span-8">
         <div className="col-span-12 sm:col-span-7">
-          <HomeCard
-            href="/projects"
-            title="projects"
-            label="built by me"
-            ariaLabel="projects page"
-          >
+          <HomeCard href="/projects" title="projects" label="built by me">
             <div className="flex items-center justify-center px-5 py-2">
               <Image
                 src={projectsImg}
                 alt="spinning moon on a hand"
                 width={140}
                 height={140}
+                placeholder="blur"
                 className="border-[0.625rem] border-[#202126] rounded-full group-hover:animate-rotate group-focus:animate-rotate"
               />
             </div>
@@ -108,12 +97,7 @@ export default function Home() {
         </div>
 
         <div className="col-span-12 sm:col-span-5">
-          <HomeCard
-            href="/contact"
-            title="contact"
-            label="let's talk"
-            ariaLabel="contact page"
-          >
+          <HomeCard href="/contact" title="contact" label="let's talk">
             <div className="flex items-center justify-center px-5 py-4">
               <Image
                 src={contactImg}

@@ -5,20 +5,12 @@ type Props = {
   label: string;
   title: string;
   children?: React.ReactNode;
-  ariaLabel: string;
 };
 
-export default function HomeCard({
-  href,
-  label,
-  title,
-  children,
-  ariaLabel,
-}: Props) {
+export default function HomeCard({ href, label, title, children }: Props) {
   return (
     <Link
       href={href}
-      aria-label={ariaLabel}
       className="relative group flex flex-col justify-between size-full overflow-hidden bg-card border-2 border-card-border rounded-large py-5 duration-200 hover:border-primary"
     >
       <div className="mb-5 mx-5 flex items-center border border-border-secondary bg-home-card-label rounded-full pt-1 pb-1.5 pl-2.5 pr-3 w-fit">
