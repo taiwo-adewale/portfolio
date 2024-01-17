@@ -94,6 +94,7 @@ const Modal = ({
       )}
     >
       <div
+        onClick={(e) => e.stopPropagation()}
         className={cn(
           "relative bg-modal w-4/5 py-5 px-1.5 rounded-large border border-border z-40 duration-300 origin-center",
           isVisible
@@ -104,6 +105,7 @@ const Modal = ({
         {children}
 
         <button
+          onClick={handleClose}
           aria-label="close navigation menu"
           className="absolute right-0 p-2 mb-2 duration-300 border bottom-full bg-modal border-border rounded-small hover:border-primary hover:bg-card-secondary focus:bg-card-secondary"
         >
