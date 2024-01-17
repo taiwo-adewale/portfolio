@@ -50,9 +50,6 @@ module.exports = {
         "home-card-service": "linear-gradient(#191a1f, #26272b)",
         "service-image": "linear-gradient(#191a1f, #27282c)",
       },
-      fontFamily: {
-        primary: ["Oswald", "sans-serif"],
-      },
       keyframes: {
         loader1: {
           "0%, 100%": {

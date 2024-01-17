@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  @apply font-primary outline outline-transparent outline-2 outline-offset-2;
+  @apply outline outline-transparent outline-2 outline-offset-2;
 }
 
 *:focus-visible {
