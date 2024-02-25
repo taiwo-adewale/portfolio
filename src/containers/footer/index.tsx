@@ -7,8 +7,8 @@ export default function Footer() {
       <Container>
         <SocialLinks />
 
-        <p className="text-center text-xl">
-          Taiwo Adewale © 2023. All rights reserved.
+        <p className="text-xl text-center">
+          Taiwo Adewale © {new Date().getFullYear()}. All rights reserved.
         </p>
       </Container>
     </footer>
