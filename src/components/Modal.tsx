@@ -24,7 +24,13 @@ interface ContainerProps extends ModalProps {
 }
 
 export default function ModalContainer({ isOpen, ...rest }: ContainerProps) {
-  return isOpen ? <Modal {...rest} /> : null;
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  return isOpen && mounted ? <Modal {...rest} /> : null;
 }
 
 const Modal = ({
