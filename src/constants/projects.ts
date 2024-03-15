@@ -20,6 +20,13 @@ export const projects: Project[] = [
     url: "https://www.1ovmany.com/",
   },
   {
+    title: "microdosing support",
+    description:
+      "Need help with microdosing? Connect with professionals with extensive experience in the safe use of psychedelics. Also with a blog to answer any questions you have on microdosing.",
+    image: microdosing,
+    url: "https://microdosingsupport.com/",
+  },
+  {
     title: "Pixstock",
     description:
       "Media viewing website built with HTML, CSS, Javascript and Pexels API with search, filter, theming and favorites functionality.",
@@ -42,13 +49,6 @@ export const projects: Project[] = [
     image: yandox,
     url: "https://yandox.vercel.app/",
     github: "https://github.com/taiwo-adewale/yandox.git",
-  },
-  {
-    title: "microdosing support",
-    description:
-      "Need help with microdosing? Connect with professionals with extensive experience in the safe use of psychedelics. Also with a blog to answer any questions you have on microdosing.",
-    image: microdosing,
-    url: "https://microdosingsupport.com/",
   },
   {
     title: "doppell",
