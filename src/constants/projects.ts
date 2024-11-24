@@ -12,13 +12,13 @@ import pixstock from "public/assets/projects/pixstock.png";
 import { Project } from "@/types/project";
 
 export const projects: Project[] = [
-  {
-    title: "1ovmany",
-    description:
-      "Get training, consultancy and certification services in OKRs, growth strategies, agile transformation, portfolio management and OKR methodology accreditation.",
-    image: oneOvMany,
-    url: "https://www.1ovmany.com/",
-  },
+  // {
+  //   title: "1ovmany",
+  //   description:
+  //     "Get training, consultancy and certification services in OKRs, growth strategies, agile transformation, portfolio management and OKR methodology accreditation.",
+  //   image: oneOvMany,
+  //   url: "https://www.1ovmany.com/",
+  // },
   {
     title: "microdosing support",
     description:
