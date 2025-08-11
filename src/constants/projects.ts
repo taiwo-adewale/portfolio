@@ -8,17 +8,19 @@ import apexCare from "public/assets/projects/apex-care.png";
 import oneOvMany from "public/assets/projects/1ovmany.png";
 import snapgram from "public/assets/projects/snapgram.png";
 import pixstock from "public/assets/projects/pixstock.png";
+import zorvex from "public/assets/projects/zorvex.png";
 
 import { Project } from "@/types/project";
 
 export const projects: Project[] = [
-  // {
-  //   title: "1ovmany",
-  //   description:
-  //     "Get training, consultancy and certification services in OKRs, growth strategies, agile transformation, portfolio management and OKR methodology accreditation.",
-  //   image: oneOvMany,
-  //   url: "https://www.1ovmany.com/",
-  // },
+  {
+    title: "Zorvex Admin Dashoard",
+    description:
+      "CRUD E-commerce admin dashboard for managing products, orders and users built with Next JS, Typescript, Tailwind CSS and Supabase",
+    image: zorvex,
+    url: "https://ecommerce-admin-board.vercel.app/",
+    github: "https://github.com/taiwo-adewale/ecommerce-admin",
+  },
   {
     title: "microdosing support",
     description:
@@ -41,6 +43,13 @@ export const projects: Project[] = [
     image: musica,
     url: "https://musica01.netlify.app",
     github: "https://github.com/taiwo-adewale/musica.git",
+  },
+  {
+    title: "1ovmany",
+    description:
+      "Get training, consultancy and certification services in OKRs, growth strategies, agile transformation, portfolio management and OKR methodology accreditation.",
+    image: oneOvMany,
+    url: "https://www.1ovmany.com/",
   },
   {
     title: "yandox",
