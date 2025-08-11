@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export const socials = [
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/taiwo-adewale-jsdev/",
+    url: "https://www.linkedin.com/in/taiwo-adewale-js/",
     icon: <FaLinkedin />,
   },
   {
@@ -14,7 +14,7 @@ export const socials = [
   },
   {
     name: "twitter",
-    url: "https://twitter.com/___shambles__",
+    url: "https://x.com/shambles_dev",
     icon: <FaXTwitter />,
   },
 ];
